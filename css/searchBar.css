@@ -1,0 +1,63 @@
+/* 
+.select>span,
+.select a {
+    margin-right: 25px;
+    color: #999;
+
+}
+
+.select>span {
+    float: left;
+}
+
+.select a:hover {
+    color: #C40000;
+    text-decoration: none;
+}
+
+.pic {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 200px;
+}*/
+body {
+    font-size: 12px;
+    font-family: arial;
+}
+
+.searchBorder {
+    height: 40px;
+    width: 400px;
+    background-color: #C40000;
+    padding: 1px;
+
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 110px;
+}
+
+input[type=text] {
+    width: 275px;
+    height: 36px;
+    border: none;
+    outline: none;
+    margin: 1px;
+}
+
+span,
+a {
+    color: #999;
+}
+
+a:hover {
+    color: #C40000;
+    text-decoration: none;
+}
+
+.select {}
