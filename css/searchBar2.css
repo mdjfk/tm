@@ -1,6 +1,6 @@
 body {
     font-size: 12px;
-    font-family: arial;
+    font-family: Arial;
 }
 
 .searchBorder {
@@ -13,45 +13,45 @@ body {
 
 input {
     width: 275px;
-    height: 36px;
+    height: 34px;
     border: 1px solid transparent;
-    margin: 1px;
     outline: none;
+    margin-top: 2px;
+    margin-left: 2px;
 }
 
 button {
     width: 110px;
-    border: none;
-    color: white;
     background-color: transparent;
-    font-weight: bold;
     font-size: 20px;
+    color: white;
+    border: none;
     outline: none;
-}
-
-a,
-span {
-    color: #999;
-}
-
-.select a {
-    padding: 0 20px;
-}
-
-a:hover {
-    color: #C40000;
-    text-decoration: none;
 }
 
 .select {
     margin-top: 3px;
     margin-left: -20px;
+}
+
+span a,
+span {
+    color: #999;
     font-size: 14px;
+
+}
+
+span a {
+    padding: 0 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #C40000;
 }
 
 .pic {
     position: absolute;
-    top: 30px;
+    margin-top: 30px;
     left: 0;
-    z-index: -2;
 }

@@ -1,0 +1,39 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.pic {
+    width: 1100px;
+    border: 1px solid red;
+    margin: 20px auto;
+}
+
+/* .wordBlock {
+    width: 1300px;
+    margin: 10px auto;
+} */
+
+.wordBlock div {
+    margin: 0 80px;
+    width: 90px;
+    height: 190px;
+    /* border: 1px solid green; */
+    float: left;
+
+}
+
+span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    color: #999;
+    display: block;
+}
+
+a:hover {
+    color: #C40000;
+    text-decoration: none;
+}
