@@ -1,0 +1,62 @@
+body {
+    font-size: 12px;
+    font-family: arial;
+}
+
+.all {
+    margin: 10px 10px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.pic {
+    margin: 0 20px;
+}
+
+.pic2 {
+    margin: 0 10px;
+}
+
+.footer2 {
+    background-color: black;
+    border-top: 2px solid #C40000;
+    padding-bottom: 30px;
+}
+
+.link span,
+a,
+a:hover {
+    color: white;
+
+}
+
+.copyright {
+    color: #686868;
+}
+
+.num {
+    color: #A4A4A4;
+}
+
+.about {
+    margin: 10px 15px;
+}
+
+.about a {
+    padding-right: 10px;
+}
+
+.link a {
+    padding: 0 5px;
+}
+
+.link {
+    padding: 10px 9px;
+}
+
+.num {
+    margin: 0 10px;
+}
+
+.copyright {
+    margin: 10px 10px;
+}
