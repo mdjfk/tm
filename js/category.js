@@ -1,32 +1,32 @@
-$("[class^=firstCategory]").mouseenter(function () {
-    $("[class^=rightBlock]").hide();
-    $(".rightBlock_" + $(this).attr("data-index")).show();
-
-    $("[class^=firstCategory]").find("a").css("color", "black");
-    $("[class^=firstCategory]").css("backgroundColor", "transparent");
-
-    $(this).find("a").css("color", "lightskyblue");
-    $(this).css("backgroundColor", "white");
+$("div.firstCategory").mouseenter(function () {
+    var i = $(this).attr("data-index");
+    dynamic.showRightBlock(i);
 });
 
-$("[class^=firstCategory]").mouseleave(function () {
-    $("[class^=rightBlock]").hide();
-    // $(".rightBlock_" + $(this).attr("data-index")).show();
-
-    $("[class^=firstCategory]").find("a").css("color", "black");
-    $("[class^=firstCategory]").css("backgroundColor", "transparent");
-
-    // $(this).find("a").css("color", "lightskyblue");
-    // $(this).css("backgroundColor", "white");
+$("div.firstCategory").mouseleave(function () {
+    var i = $(this).attr("data-index");
+    dynamic.hideRightBlock(i);
 });
 
-$("[class^=rightBlock]").mouseenter(function () {
-    var index = $(this).attr("data-index");
-    $("#firstCategory_" + index).find("a").css("color", "lightskyblue");
-    $("#firstCategory_" + index).css("backgroundColor", "white");
+$("div.rightBlock").mouseenter(function () {
+    var i = $(this).attr("data-index");
+    dynamic.showRightBlock(i);
 });
 
-$("[class^=rightBlock]").mouseleave(function () {
-
+$("div.rightBlock").mouseleave(function () {
+    var i = $(this).attr("data-index");
+    dynamic.hideRightBlock(i);
 });
 
+var dynamic = {
+    showRightBlock: function (i) {
+        $(".rightBlock[data-index=" + i + "]").show();
+        $(".firstCategory[data-index=" + i + "] a").css("color", "lightskyblue");
+        $(".firstCategory[data-index=" + i + "]").css("backgroundColor", "white");
+    },
+    hideRightBlock: function (i) {
+        $(".rightBlock[data-index=" + i + "]").hide();
+        $(".firstCategory[data-index=" + i + "] a").css("color", "black");
+        $(".firstCategory[data-index=" + i + "]").css("backgroundColor", "transparent");
+    }
+};
