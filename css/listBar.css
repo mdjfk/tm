@@ -1,0 +1,53 @@
+body {
+    font-size: 16px;
+    font-family: Arial;
+    color: #fff;
+}
+
+.bar {
+    background-color: #DD2727;
+    height: 36px;
+    margin-top: 50px;
+
+}
+
+.group {
+    width: 200px;
+    height: 36px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    padding-top: 7px;
+    background-color: #C60A0A;
+    display: inline-block;
+}
+
+.icon {
+    display: inline-block;
+
+}
+
+.icon a {
+    color: #fff;
+}
+
+.icon a:hover {
+    text-decoration: none;
+}
+
+.icon span {
+    padding-left: 40px;
+}
+
+.icon img {
+    height: 36px;
+}
+
+.ear {
+    height: 15px;
+    position: absolute;
+    top: 42px;
+    /* left: 275px; */
+    z-index: -1;
+    display: none;
+}
