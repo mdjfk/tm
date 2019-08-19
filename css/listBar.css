@@ -24,7 +24,6 @@ body {
 
 .icon {
     display: inline-block;
-
 }
 
 .icon a {
@@ -36,7 +35,7 @@ body {
 }
 
 .icon span {
-    padding-left: 40px;
+    margin: 0 20px;
 }
 
 .icon img {
@@ -47,7 +46,6 @@ body {
     height: 15px;
     position: absolute;
     top: 42px;
-    /* left: 275px; */
     z-index: -1;
     display: none;
 }
